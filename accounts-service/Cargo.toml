@@ -1,12 +1,11 @@
 [package]
 name = "accounts-service"
-version = "0.1.1"
+version = "0.1.2"
 description = "Safe gir-generated wrapper for accountsservice"
 repository = "https://github.com/SergeGris/accounts-service-gir/tree/master/accounts-service"
 documentation = "https://docs.rs/accounts-service/"
 keywords = ["accounts-service", "gir", "wrapper"]
 categories = ["api-bindings"]
-#exclude = ["examples"]
 authors.workspace = true
 rust-version.workspace = true
 edition.workspace = true
@@ -19,7 +18,6 @@ rustdoc-args = ["--generate-link-to-definition"]
 [dependencies]
 libc.workspace = true
 glib.workspace = true
-glib-sys.workspace = true
 accounts-service-sys.workspace = true
 
 [dev-dependencies]
